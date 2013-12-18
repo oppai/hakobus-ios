@@ -1,0 +1,5 @@
+language: objective-c
+xcode_sdk: iphonesimulator
+xcode_project: Hakobus.xcodeproj
+xcode_scheme: Hakobus
+script: xctool -project Hakobus.xcodeproj -scheme Hakobus -sdk iphonesimulator build test -freshInstall -freshSimulator
