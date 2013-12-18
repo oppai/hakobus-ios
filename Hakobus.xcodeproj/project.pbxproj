@@ -22,6 +22,8 @@
 		1BAAC745186194A00048AF40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAAC7241861949F0048AF40 /* UIKit.framework */; };
 		1BAAC74D186194A00048AF40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BAAC74B186194A00048AF40 /* InfoPlist.strings */; };
 		1BAAC74F186194A00048AF40 /* HakobusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAC74E186194A00048AF40 /* HakobusTests.m */; };
+		1BAAC75A1861BFBE0048AF40 /* button_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAAC7591861BFBE0048AF40 /* button_frame.png */; };
+		1BAAC75E186208490048AF40 /* Hakobus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAC75D186208490048AF40 /* Hakobus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		1BAAC74A186194A00048AF40 /* HakobusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HakobusTests-Info.plist"; sourceTree = "<group>"; };
 		1BAAC74C186194A00048AF40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1BAAC74E186194A00048AF40 /* HakobusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HakobusTests.m; sourceTree = "<group>"; };
+		1BAAC7591861BFBE0048AF40 /* button_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_frame.png; sourceTree = "<group>"; };
+		1BAAC75C186208490048AF40 /* Hakobus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hakobus.h; sourceTree = "<group>"; };
+		1BAAC75D186208490048AF40 /* Hakobus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hakobus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,8 @@
 		1BAAC7261861949F0048AF40 /* Hakobus */ = {
 			isa = PBXGroup;
 			children = (
+				1BAAC75B186205840048AF40 /* HakoBusAPI */,
+				1BAAC7581861BFAB0048AF40 /* image */,
 				1BAAC72F1861949F0048AF40 /* AppDelegate.h */,
 				1BAAC7301861949F0048AF40 /* AppDelegate.m */,
 				1BAAC7321861949F0048AF40 /* Main.storyboard */,
@@ -155,6 +162,23 @@
 				1BAAC74B186194A00048AF40 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BAAC7581861BFAB0048AF40 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAC7591861BFBE0048AF40 /* button_frame.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		1BAAC75B186205840048AF40 /* HakoBusAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1BAAC75C186208490048AF40 /* Hakobus.h */,
+				1BAAC75D186208490048AF40 /* Hakobus.m */,
+			);
+			path = HakoBusAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BAAC73C186194A00048AF40 /* Images.xcassets in Resources */,
+				1BAAC75A1861BFBE0048AF40 /* button_frame.png in Resources */,
 				1BAAC72B1861949F0048AF40 /* InfoPlist.strings in Resources */,
 				1BAAC7341861949F0048AF40 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BAAC75E186208490048AF40 /* Hakobus.m in Sources */,
 				1BAAC73A1861949F0048AF40 /* SecondViewController.m in Sources */,
 				1BAAC7311861949F0048AF40 /* AppDelegate.m in Sources */,
 				1BAAC7371861949F0048AF40 /* FirstViewController.m in Sources */,
